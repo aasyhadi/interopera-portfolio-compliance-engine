@@ -1,6 +1,6 @@
 # InterOpera Portfolio Compliance Engine
 
-Audit-ready compliance reporting prototype. The system builds a provenance-carrying knowledge graph, computes figures deterministically through graph traversal, reconciles Firm A and Firm B outputs against answer keys, validates traceability, checks that narrative text introduces no LLM-generated numbers, exports Excel/JSON reports, and records an append-only audit log.
+An audit-ready compliance reporting prototype. The system builds a provenance-carrying knowledge graph, computes figures deterministically through graph traversal, and reconciles Firm A and Firm B outputs against answer keys. It also validates traceability, ensures narrative texts introduce no LLM-generated numbers, exports Excel/JSON reports, and maintains an append-only audit log.
 
 ## One-command start
 
