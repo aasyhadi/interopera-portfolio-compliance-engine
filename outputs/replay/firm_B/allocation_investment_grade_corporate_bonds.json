@@ -1,0 +1,99 @@
+{
+  "citation": {
+    "chunk_id": "chunk_alloc_limits_p2",
+    "page": 2,
+    "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+    "source_doc": "sample_fund_guidelines.pdf"
+  },
+  "config_rule": "allocation_limits",
+  "denominator": 100000000.0,
+  "figure": "allocation_investment_grade_corporate_bonds",
+  "firm": "firm_B",
+  "formula": "sum(asset_class_market_value) / total_nav * 100",
+  "graph_edges": [
+    {
+      "relation": "APPLIES_TO",
+      "source": "Limit:allocation:Investment Grade Corporate Bonds",
+      "target": "AssetClass:Investment Grade Corporate Bonds"
+    },
+    {
+      "relation": "BELONGS_TO",
+      "source": "Position:COR-01",
+      "target": "AssetClass:Investment Grade Corporate Bonds"
+    },
+    {
+      "relation": "BELONGS_TO",
+      "source": "Position:COR-02",
+      "target": "AssetClass:Investment Grade Corporate Bonds"
+    },
+    {
+      "relation": "BELONGS_TO",
+      "source": "Position:COR-03",
+      "target": "AssetClass:Investment Grade Corporate Bonds"
+    },
+    {
+      "relation": "BELONGS_TO",
+      "source": "Position:COR-04",
+      "target": "AssetClass:Investment Grade Corporate Bonds"
+    },
+    {
+      "relation": "BELONGS_TO",
+      "source": "Position:COR-05",
+      "target": "AssetClass:Investment Grade Corporate Bonds"
+    }
+  ],
+  "graph_path": "(Limit:allocation:Investment Grade Corporate Bonds)-[:APPLIES_TO]->(AssetClass:Investment Grade Corporate Bonds)<-[:BELONGS_TO]-(Position:COR-01,COR-02,COR-03,COR-04,COR-05)",
+  "limit": "10\u201350%",
+  "metric": "Investment Grade Corporate Bonds",
+  "numerator": 33000000.0,
+  "replay_statement": "Investment Grade Corporate Bonds = 33000000.0 / 100000000.0 using formula: sum(asset_class_market_value) / total_nav * 100; display value 33.0%.",
+  "source_positions": [
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "BBB+",
+      "instrument_id": "COR-01",
+      "instrument_name": "Changi Logistics 3.2% 2029",
+      "issuer_name": "Changi Logistics Pte Ltd",
+      "market_value_sgd": 8000000.0,
+      "modified_duration": 4.5
+    },
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "A-",
+      "instrument_id": "COR-02",
+      "instrument_name": "Lion City Bank 3.5% 2031",
+      "issuer_name": "Lion City Bank",
+      "market_value_sgd": 6000000.0,
+      "modified_duration": 4.5
+    },
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "A",
+      "instrument_id": "COR-03",
+      "instrument_name": "Redhill Power 3.1% 2030",
+      "issuer_name": "Redhill Power Pte Ltd",
+      "market_value_sgd": 7000000.0,
+      "modified_duration": 4.5
+    },
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "A",
+      "instrument_id": "COR-04",
+      "instrument_name": "Redhill Transport 3.0% 2032",
+      "issuer_name": "Redhill Transport Pte Ltd",
+      "market_value_sgd": 6000000.0,
+      "modified_duration": 4.5
+    },
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "BB",
+      "instrument_id": "COR-05",
+      "instrument_name": "Marina Bay Resorts 4.0% 2028",
+      "issuer_name": "Marina Bay Resorts Ltd",
+      "market_value_sgd": 6000000.0,
+      "modified_duration": 4.5
+    }
+  ],
+  "status": "OK",
+  "value": "33.0%"
+}

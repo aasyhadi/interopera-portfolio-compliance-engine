@@ -1,0 +1,43 @@
+{
+  "citation": {
+    "chunk_id": "chunk_alloc_limits_p2",
+    "page": 2,
+    "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+    "source_doc": "sample_fund_guidelines.pdf"
+  },
+  "config_rule": "allocation_limits",
+  "denominator": 100000000.0,
+  "figure": "allocation_structured_credit",
+  "firm": "firm_A",
+  "formula": "sum(asset_class_market_value) / total_nav * 100",
+  "graph_edges": [
+    {
+      "relation": "APPLIES_TO",
+      "source": "Limit:allocation:Structured Credit",
+      "target": "AssetClass:Structured Credit"
+    },
+    {
+      "relation": "BELONGS_TO",
+      "source": "Position:SC-01",
+      "target": "AssetClass:Structured Credit"
+    }
+  ],
+  "graph_path": "(Limit:allocation:Structured Credit)-[:APPLIES_TO]->(AssetClass:Structured Credit)<-[:BELONGS_TO]-(Position:SC-01)",
+  "limit": "0\u201310%",
+  "metric": "Structured Credit (ABS/MBS)",
+  "numerator": 6000000.0,
+  "replay_statement": "Structured Credit (ABS/MBS) = 6000000.0 / 100000000.0 using formula: sum(asset_class_market_value) / total_nav * 100; display value 6.0%.",
+  "source_positions": [
+    {
+      "asset_class": "Structured Credit",
+      "credit_rating": "AAA",
+      "instrument_id": "SC-01",
+      "instrument_name": "AAA ABS Series 2024-1",
+      "issuer_name": "Harbour ABS Trust",
+      "market_value_sgd": 6000000.0,
+      "modified_duration": 2.5
+    }
+  ],
+  "status": "OK",
+  "value": "6.0%"
+}

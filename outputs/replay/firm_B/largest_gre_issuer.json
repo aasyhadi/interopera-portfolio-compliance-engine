@@ -1,0 +1,62 @@
+{
+  "citation": {
+    "chunk_id": "chunk_firm_b_gre",
+    "page": 1,
+    "passage_summary": "Firm B measures GRE concentration by parent issuer group rather than legal issuer.",
+    "source_doc": "firm_B_brief.md"
+  },
+  "config_rule": "firm_B.gre.parent_issuer",
+  "denominator": 100000000.0,
+  "figure": "largest_gre_issuer",
+  "firm": "firm_B",
+  "formula": "max(sum(gre_group_market_value)) / total_nav * 100",
+  "graph_edges": [
+    {
+      "relation": "ISSUED_BY",
+      "source": "Position:COR-03",
+      "target": "Issuer:Redhill Power Pte Ltd"
+    },
+    {
+      "relation": "ROLLS_UP_TO",
+      "source": "Issuer:Redhill Power Pte Ltd",
+      "target": "ParentIssuer:Redhill Holdings"
+    },
+    {
+      "relation": "ISSUED_BY",
+      "source": "Position:COR-04",
+      "target": "Issuer:Redhill Transport Pte Ltd"
+    },
+    {
+      "relation": "ROLLS_UP_TO",
+      "source": "Issuer:Redhill Transport Pte Ltd",
+      "target": "ParentIssuer:Redhill Holdings"
+    }
+  ],
+  "graph_path": "(Position:GRE*)-[:ISSUED_BY]->(Issuer:GRE*)-[:ROLLS_UP_TO]->(ParentIssuer:*)-[:TESTED_AGAINST]->(Limit:gre_issuer)",
+  "limit": "max 12%",
+  "metric": "Largest GRE issuer",
+  "numerator": 13000000.0,
+  "replay_statement": "Largest GRE issuer = 13000000.0 / 100000000.0 using formula: max(sum(gre_group_market_value)) / total_nav * 100; display value 13.0%.",
+  "source_positions": [
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "A",
+      "instrument_id": "COR-03",
+      "instrument_name": "Redhill Power 3.1% 2030",
+      "issuer_name": "Redhill Power Pte Ltd",
+      "market_value_sgd": 7000000.0,
+      "modified_duration": 4.5
+    },
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "A",
+      "instrument_id": "COR-04",
+      "instrument_name": "Redhill Transport 3.0% 2032",
+      "issuer_name": "Redhill Transport Pte Ltd",
+      "market_value_sgd": 6000000.0,
+      "modified_duration": 4.5
+    }
+  ],
+  "status": "BREACH",
+  "value": "13.0%"
+}

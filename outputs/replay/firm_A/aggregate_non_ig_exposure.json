@@ -1,0 +1,61 @@
+{
+  "citation": {
+    "chunk_id": "chunk_non_ig_cap_p2",
+    "page": 2,
+    "passage_summary": "Section 2 note - High Yield plus Structured Credit aggregate non-investment-grade exposure must not exceed 20% of NAV.",
+    "source_doc": "sample_fund_guidelines.pdf"
+  },
+  "config_rule": "firm_A.non_ig.asset_class_contributors",
+  "denominator": 100000000.0,
+  "figure": "aggregate_non_ig_exposure",
+  "firm": "firm_A",
+  "formula": "sum(non_ig_position_market_value) / total_nav * 100",
+  "graph_edges": [
+    {
+      "relation": "CONTRIBUTES_TO",
+      "source": "AssetClass:High Yield Bonds",
+      "target": "Aggregate:non_ig"
+    },
+    {
+      "relation": "CONTRIBUTES_TO",
+      "source": "AssetClass:Structured Credit",
+      "target": "Aggregate:non_ig"
+    }
+  ],
+  "graph_path": "(AssetClass:High Yield Bonds)-[:CONTRIBUTES_TO]->(Aggregate:non_ig)<-[:CONTRIBUTES_TO]-(AssetClass:Structured Credit)",
+  "limit": "max 20%",
+  "metric": "Aggregate non-IG exposure",
+  "numerator": 15000000.0,
+  "replay_statement": "Aggregate non-IG exposure = 15000000.0 / 100000000.0 using formula: sum(non_ig_position_market_value) / total_nav * 100; display value 15.0%.",
+  "source_positions": [
+    {
+      "asset_class": "High Yield Bonds",
+      "credit_rating": "BB",
+      "instrument_id": "HY-01",
+      "instrument_name": "APAC Yield 5.5% 2027",
+      "issuer_name": "Garuda Energy Tbk",
+      "market_value_sgd": 5000000.0,
+      "modified_duration": 3.0
+    },
+    {
+      "asset_class": "High Yield Bonds",
+      "credit_rating": "BB-",
+      "instrument_id": "HY-02",
+      "instrument_name": "APAC Yield 6.0% 2026",
+      "issuer_name": "Siam Petro PCL",
+      "market_value_sgd": 4000000.0,
+      "modified_duration": 3.0
+    },
+    {
+      "asset_class": "Structured Credit",
+      "credit_rating": "AAA",
+      "instrument_id": "SC-01",
+      "instrument_name": "AAA ABS Series 2024-1",
+      "issuer_name": "Harbour ABS Trust",
+      "market_value_sgd": 6000000.0,
+      "modified_duration": 2.5
+    }
+  ],
+  "status": "OK",
+  "value": "15.0%"
+}

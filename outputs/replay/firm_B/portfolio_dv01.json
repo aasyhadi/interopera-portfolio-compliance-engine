@@ -1,0 +1,211 @@
+{
+  "citation": {
+    "chunk_id": "chunk_market_risk_p3",
+    "page": 3,
+    "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+    "source_doc": "sample_fund_guidelines.pdf"
+  },
+  "config_rule": "market_risk.dv01=sum(market_value*duration*0.0001)",
+  "denominator": null,
+  "figure": "portfolio_dv01",
+  "firm": "firm_B",
+  "formula": "sum(market_value * modified_duration * 0.0001)",
+  "graph_edges": [
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:CASH-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-02",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-03",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-04",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-05",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:FX-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:HY-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:HY-02",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:MAS-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:SC-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:SGS-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:SGS-02",
+      "target": "Metric:dv01"
+    },
+    {
+      "relation": "TESTED_AGAINST",
+      "source": "Metric:dv01",
+      "target": "Limit:dv01"
+    }
+  ],
+  "graph_path": "(Position:*)-[:HAS_MARKET_VALUE_AND_DURATION]->(Metric:dv01)-[:TESTED_AGAINST]->(Limit:dv01)",
+  "limit": "max 85,000",
+  "metric": "Portfolio DV01",
+  "numerator": 38790.0,
+  "replay_statement": "Portfolio DV01 = 38790.0 using formula: sum(market_value * modified_duration * 0.0001); display value SGD 38,790 / bp.",
+  "source_positions": [
+    {
+      "asset_class": "Cash & Cash Equivalents",
+      "credit_rating": "",
+      "instrument_id": "CASH-01",
+      "instrument_name": "SGD Cash",
+      "issuer_name": "House Cash",
+      "market_value_sgd": 4000000.0,
+      "modified_duration": 0.0
+    },
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "BBB+",
+      "instrument_id": "COR-01",
+      "instrument_name": "Changi Logistics 3.2% 2029",
+      "issuer_name": "Changi Logistics Pte Ltd",
+      "market_value_sgd": 8000000.0,
+      "modified_duration": 4.5
+    },
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "A-",
+      "instrument_id": "COR-02",
+      "instrument_name": "Lion City Bank 3.5% 2031",
+      "issuer_name": "Lion City Bank",
+      "market_value_sgd": 6000000.0,
+      "modified_duration": 4.5
+    },
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "A",
+      "instrument_id": "COR-03",
+      "instrument_name": "Redhill Power 3.1% 2030",
+      "issuer_name": "Redhill Power Pte Ltd",
+      "market_value_sgd": 7000000.0,
+      "modified_duration": 4.5
+    },
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "A",
+      "instrument_id": "COR-04",
+      "instrument_name": "Redhill Transport 3.0% 2032",
+      "issuer_name": "Redhill Transport Pte Ltd",
+      "market_value_sgd": 6000000.0,
+      "modified_duration": 4.5
+    },
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "BB",
+      "instrument_id": "COR-05",
+      "instrument_name": "Marina Bay Resorts 4.0% 2028",
+      "issuer_name": "Marina Bay Resorts Ltd",
+      "market_value_sgd": 6000000.0,
+      "modified_duration": 4.5
+    },
+    {
+      "asset_class": "Foreign Currency Bonds",
+      "credit_rating": "BBB",
+      "instrument_id": "FX-01",
+      "instrument_name": "USD IG Bond (hedged) 3.8% 2030",
+      "issuer_name": "Pacific Telecom Corp",
+      "market_value_sgd": 5000000.0,
+      "modified_duration": 4.0
+    },
+    {
+      "asset_class": "High Yield Bonds",
+      "credit_rating": "BB",
+      "instrument_id": "HY-01",
+      "instrument_name": "APAC Yield 5.5% 2027",
+      "issuer_name": "Garuda Energy Tbk",
+      "market_value_sgd": 5000000.0,
+      "modified_duration": 3.0
+    },
+    {
+      "asset_class": "High Yield Bonds",
+      "credit_rating": "BB-",
+      "instrument_id": "HY-02",
+      "instrument_name": "APAC Yield 6.0% 2026",
+      "issuer_name": "Siam Petro PCL",
+      "market_value_sgd": 4000000.0,
+      "modified_duration": 3.0
+    },
+    {
+      "asset_class": "MAS Bills",
+      "credit_rating": "AAA",
+      "instrument_id": "MAS-01",
+      "instrument_name": "MAS Bill 12W",
+      "issuer_name": "Monetary Authority of Singapore",
+      "market_value_sgd": 8000000.0,
+      "modified_duration": 0.3
+    },
+    {
+      "asset_class": "Structured Credit",
+      "credit_rating": "AAA",
+      "instrument_id": "SC-01",
+      "instrument_name": "AAA ABS Series 2024-1",
+      "issuer_name": "Harbour ABS Trust",
+      "market_value_sgd": 6000000.0,
+      "modified_duration": 2.5
+    },
+    {
+      "asset_class": "Singapore Government Securities",
+      "credit_rating": "AAA",
+      "instrument_id": "SGS-01",
+      "instrument_name": "SGS 2.5% 2030",
+      "issuer_name": "Singapore Government",
+      "market_value_sgd": 20000000.0,
+      "modified_duration": 5.0
+    },
+    {
+      "asset_class": "Singapore Government Securities",
+      "credit_rating": "AAA",
+      "instrument_id": "SGS-02",
+      "instrument_name": "SGS 3.0% 2034",
+      "issuer_name": "Singapore Government",
+      "market_value_sgd": 15000000.0,
+      "modified_duration": 5.0
+    }
+  ],
+  "status": "OK",
+  "value": "SGD 38,790 / bp"
+}

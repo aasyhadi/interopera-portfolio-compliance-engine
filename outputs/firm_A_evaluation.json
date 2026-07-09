@@ -1,0 +1,238 @@
+{
+  "audit_append_only_demo": {
+    "update_trigger": "FAILED"
+  },
+  "config_sha256": "b7ed08c57d2dbb22e570d16d0ed7d9de38a8588ad164cd4459c1c4660ff38f26",
+  "firm": "firm_A",
+  "narrative": "Compliance review requires attention for: Cash & Cash Equivalents 4.0% versus min 5%.",
+  "no_llm_numbers_firewall": {
+    "all_passed": true,
+    "numbers_found": [
+      "4.0",
+      "5"
+    ],
+    "unauthorized_numbers": []
+  },
+  "reconciliation": {
+    "all_passed": true,
+    "answer_key": "D:\\5. Belajar\\22. Belajar Phyton\\interopera_solution_final\\sample_docs\\firm_A_answer_key.xlsx",
+    "results": [
+      {
+        "delta": {
+          "utilization": 0.0,
+          "value": 0.0
+        },
+        "metric": "Singapore Government Securities",
+        "pass": true
+      },
+      {
+        "delta": {
+          "utilization": 0.0,
+          "value": 0.0
+        },
+        "metric": "MAS Bills",
+        "pass": true
+      },
+      {
+        "delta": {
+          "utilization": 0.0,
+          "value": 0.0
+        },
+        "metric": "Investment Grade Corporate Bonds",
+        "pass": true
+      },
+      {
+        "delta": {
+          "utilization": 0.0,
+          "value": 0.0
+        },
+        "metric": "High Yield Bonds",
+        "pass": true
+      },
+      {
+        "delta": {
+          "utilization": 0.0,
+          "value": 0.0
+        },
+        "metric": "Foreign Currency Bonds (hedged)",
+        "pass": true
+      },
+      {
+        "delta": {
+          "utilization": 0.0,
+          "value": 0.0
+        },
+        "metric": "Structured Credit (ABS/MBS)",
+        "pass": true
+      },
+      {
+        "delta": {
+          "utilization": 0,
+          "value": 0.0
+        },
+        "metric": "Cash & Cash Equivalents",
+        "pass": true
+      },
+      {
+        "delta": {
+          "utilization": 0.0,
+          "value": 0.0
+        },
+        "metric": "Aggregate non-IG exposure",
+        "pass": true
+      },
+      {
+        "delta": {
+          "utilization": 0.0,
+          "value": 0.0
+        },
+        "metric": "Largest single corporate issuer",
+        "pass": true
+      },
+      {
+        "delta": {
+          "utilization": 0.0,
+          "value": 0.0
+        },
+        "metric": "Largest GRE issuer",
+        "pass": true
+      },
+      {
+        "delta": {
+          "utilization": 0.0,
+          "value": 0.0
+        },
+        "metric": "Liquid assets ratio",
+        "pass": true
+      },
+      {
+        "delta": {
+          "utilization": 0,
+          "value": 0.0
+        },
+        "metric": "Portfolio modified duration",
+        "pass": true
+      },
+      {
+        "delta": {
+          "utilization": 0.0,
+          "value": 0.0
+        },
+        "metric": "Portfolio DV01",
+        "pass": true
+      }
+    ]
+  },
+  "replay_directory": "D:\\5. Belajar\\22. Belajar Phyton\\interopera_solution_final\\outputs\\replay\\firm_A",
+  "run_id": "firm_A-592be3f4f3bd",
+  "source_chunks_sha256": "d25c32fd2812e613a282571c4e23f809ddf01bfeacf7f4992c7252875adbd153",
+  "traceability": {
+    "all_passed": true,
+    "results": [
+      {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "figure": "allocation_singapore_government_securities",
+        "graph_path": "(Limit:allocation:Singapore Government Securities)-[:APPLIES_TO]->(AssetClass:Singapore Government Securities)<-[:BELONGS_TO]-(Position:SGS-01,SGS-02)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 3
+      },
+      {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "figure": "allocation_mas_bills",
+        "graph_path": "(Limit:allocation:MAS Bills)-[:APPLIES_TO]->(AssetClass:MAS Bills)<-[:BELONGS_TO]-(Position:MAS-01)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 2
+      },
+      {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "figure": "allocation_investment_grade_corporate_bonds",
+        "graph_path": "(Limit:allocation:Investment Grade Corporate Bonds)-[:APPLIES_TO]->(AssetClass:Investment Grade Corporate Bonds)<-[:BELONGS_TO]-(Position:COR-01,COR-02,COR-03,COR-04,COR-05)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 6
+      },
+      {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "figure": "allocation_high_yield_bonds",
+        "graph_path": "(Limit:allocation:High Yield Bonds)-[:APPLIES_TO]->(AssetClass:High Yield Bonds)<-[:BELONGS_TO]-(Position:HY-01,HY-02)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 3
+      },
+      {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "figure": "allocation_foreign_currency_bonds",
+        "graph_path": "(Limit:allocation:Foreign Currency Bonds)-[:APPLIES_TO]->(AssetClass:Foreign Currency Bonds)<-[:BELONGS_TO]-(Position:FX-01)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 2
+      },
+      {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "figure": "allocation_structured_credit",
+        "graph_path": "(Limit:allocation:Structured Credit)-[:APPLIES_TO]->(AssetClass:Structured Credit)<-[:BELONGS_TO]-(Position:SC-01)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 2
+      },
+      {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "figure": "allocation_cash_cash_equivalents",
+        "graph_path": "(Limit:allocation:Cash & Cash Equivalents)-[:APPLIES_TO]->(AssetClass:Cash & Cash Equivalents)<-[:BELONGS_TO]-(Position:CASH-01)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 2
+      },
+      {
+        "chunk_id": "chunk_non_ig_cap_p2",
+        "figure": "aggregate_non_ig_exposure",
+        "graph_path": "(AssetClass:High Yield Bonds)-[:CONTRIBUTES_TO]->(Aggregate:non_ig)<-[:CONTRIBUTES_TO]-(AssetClass:Structured Credit)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 2
+      },
+      {
+        "chunk_id": "chunk_concentration_p3",
+        "figure": "largest_single_corporate_issuer",
+        "graph_path": "(Position:COR-01)-[:ISSUED_BY]->(Issuer:Changi Logistics Pte Ltd); (Limit:single_corporate_issuer)-[:SUPPORTED_BY]->(SourceChunk:concentration)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 1
+      },
+      {
+        "chunk_id": "chunk_concentration_p3",
+        "figure": "largest_gre_issuer",
+        "graph_path": "(Position:*)-[:ISSUED_BY]->(Issuer:GRE*)-[:TESTED_AGAINST]->(Limit:gre_issuer)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 1
+      },
+      {
+        "chunk_id": "chunk_liquidity_p3",
+        "figure": "liquid_assets_ratio",
+        "graph_path": "(AssetClass:SGS|MAS Bills|Cash)-[:CONTRIBUTES_TO]->(Aggregate:liquid_assets)-[:SUPPORTED_BY]->(SourceChunk:liquidity); (Limit:liquidity_normal)-[:SUPPORTED_BY]->(SourceChunk:liquidity)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 3
+      },
+      {
+        "chunk_id": "chunk_market_risk_p3",
+        "figure": "portfolio_modified_duration",
+        "graph_path": "(Position:*)-[:HAS_MARKET_VALUE_AND_DURATION]->(Metric:weighted_duration)-[:TESTED_AGAINST]->(Limit:modified_duration)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 14
+      },
+      {
+        "chunk_id": "chunk_market_risk_p3",
+        "figure": "portfolio_dv01",
+        "graph_path": "(Position:*)-[:HAS_MARKET_VALUE_AND_DURATION]->(Metric:dv01)-[:TESTED_AGAINST]->(Limit:dv01)",
+        "pass": true,
+        "reasons": [],
+        "validated_edges": 14
+      }
+    ]
+  }
+}

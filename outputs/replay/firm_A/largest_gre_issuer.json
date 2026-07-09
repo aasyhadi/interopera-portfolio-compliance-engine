@@ -1,0 +1,38 @@
+{
+  "citation": {
+    "chunk_id": "chunk_concentration_p3",
+    "page": 3,
+    "passage_summary": "Section 3.2 - single issuer concentration max 8% excluding Singapore Government; GRE capped at 12% per issuer.",
+    "source_doc": "sample_fund_guidelines.pdf"
+  },
+  "config_rule": "firm_A.gre.issuer",
+  "denominator": 100000000.0,
+  "figure": "largest_gre_issuer",
+  "firm": "firm_A",
+  "formula": "max(sum(gre_group_market_value)) / total_nav * 100",
+  "graph_edges": [
+    {
+      "relation": "ISSUED_BY",
+      "source": "Position:COR-03",
+      "target": "Issuer:Redhill Power Pte Ltd"
+    }
+  ],
+  "graph_path": "(Position:*)-[:ISSUED_BY]->(Issuer:GRE*)-[:TESTED_AGAINST]->(Limit:gre_issuer)",
+  "limit": "max 12%",
+  "metric": "Largest GRE issuer",
+  "numerator": 7000000.0,
+  "replay_statement": "Largest GRE issuer = 7000000.0 / 100000000.0 using formula: max(sum(gre_group_market_value)) / total_nav * 100; display value 7.0%.",
+  "source_positions": [
+    {
+      "asset_class": "Investment Grade Corporate Bonds",
+      "credit_rating": "A",
+      "instrument_id": "COR-03",
+      "instrument_name": "Redhill Power 3.1% 2030",
+      "issuer_name": "Redhill Power Pte Ltd",
+      "market_value_sgd": 7000000.0,
+      "modified_duration": 4.5
+    }
+  ],
+  "status": "OK",
+  "value": "7.0%"
+}

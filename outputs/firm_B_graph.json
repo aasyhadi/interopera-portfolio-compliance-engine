@@ -1,0 +1,2193 @@
+{
+  "edges": [
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "APPLIES_TO",
+      "source": "Limit:allocation:Singapore Government Securities",
+      "target": "AssetClass:Singapore Government Securities"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Limit:allocation:Singapore Government Securities",
+      "target": "SourceChunk:allocation_limits"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "APPLIES_TO",
+      "source": "Limit:allocation:MAS Bills",
+      "target": "AssetClass:MAS Bills"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Limit:allocation:MAS Bills",
+      "target": "SourceChunk:allocation_limits"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "APPLIES_TO",
+      "source": "Limit:allocation:Investment Grade Corporate Bonds",
+      "target": "AssetClass:Investment Grade Corporate Bonds"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Limit:allocation:Investment Grade Corporate Bonds",
+      "target": "SourceChunk:allocation_limits"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "APPLIES_TO",
+      "source": "Limit:allocation:High Yield Bonds",
+      "target": "AssetClass:High Yield Bonds"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Limit:allocation:High Yield Bonds",
+      "target": "SourceChunk:allocation_limits"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "APPLIES_TO",
+      "source": "Limit:allocation:Foreign Currency Bonds",
+      "target": "AssetClass:Foreign Currency Bonds"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Limit:allocation:Foreign Currency Bonds",
+      "target": "SourceChunk:allocation_limits"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "APPLIES_TO",
+      "source": "Limit:allocation:Structured Credit",
+      "target": "AssetClass:Structured Credit"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Limit:allocation:Structured Credit",
+      "target": "SourceChunk:allocation_limits"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "APPLIES_TO",
+      "source": "Limit:allocation:Cash & Cash Equivalents",
+      "target": "AssetClass:Cash & Cash Equivalents"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Limit:allocation:Cash & Cash Equivalents",
+      "target": "SourceChunk:allocation_limits"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_non_ig_cap_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 note - High Yield plus Structured Credit aggregate non-investment-grade exposure must not exceed 20% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Aggregate:non_ig",
+      "target": "SourceChunk:aggregate_non_ig"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_concentration_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.2 - single issuer concentration max 8% excluding Singapore Government; GRE capped at 12% per issuer.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Limit:single_corporate_issuer",
+      "target": "SourceChunk:concentration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_concentration_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.2 - single issuer concentration max 8% excluding Singapore Government; GRE capped at 12% per issuer.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Limit:gre_issuer",
+      "target": "SourceChunk:concentration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_liquidity_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.3 - liquid assets are SGS, MAS Bills, and Cash; minimum normal-condition liquidity is 25% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Limit:liquidity_normal",
+      "target": "SourceChunk:liquidity"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_market_risk_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Limit:modified_duration",
+      "target": "SourceChunk:market_risk"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_market_risk_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Limit:dv01",
+      "target": "SourceChunk:market_risk"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_non_ig_cap_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 note - High Yield plus Structured Credit aggregate non-investment-grade exposure must not exceed 20% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "CONTRIBUTES_TO",
+      "source": "AssetClass:High Yield Bonds",
+      "target": "Aggregate:non_ig"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_non_ig_cap_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 note - High Yield plus Structured Credit aggregate non-investment-grade exposure must not exceed 20% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "CONTRIBUTES_TO",
+      "source": "AssetClass:Structured Credit",
+      "target": "Aggregate:non_ig"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_liquidity_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.3 - liquid assets are SGS, MAS Bills, and Cash; minimum normal-condition liquidity is 25% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "Aggregate:liquid_assets",
+      "target": "SourceChunk:liquidity"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_liquidity_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.3 - liquid assets are SGS, MAS Bills, and Cash; minimum normal-condition liquidity is 25% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "CONTRIBUTES_TO",
+      "source": "AssetClass:Singapore Government Securities",
+      "target": "Aggregate:liquid_assets"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_liquidity_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.3 - liquid assets are SGS, MAS Bills, and Cash; minimum normal-condition liquidity is 25% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "CONTRIBUTES_TO",
+      "source": "AssetClass:MAS Bills",
+      "target": "Aggregate:liquid_assets"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_liquidity_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.3 - liquid assets are SGS, MAS Bills, and Cash; minimum normal-condition liquidity is 25% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "CONTRIBUTES_TO",
+      "source": "AssetClass:Cash & Cash Equivalents",
+      "target": "Aggregate:liquid_assets"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_market_risk_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "TESTED_AGAINST",
+      "source": "Metric:weighted_duration",
+      "target": "Limit:modified_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_market_risk_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "relation": "TESTED_AGAINST",
+      "source": "Metric:dv01",
+      "target": "Limit:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_firm_b_non_ig",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B includes current below-investment-grade fallen angels in aggregate non-IG exposure even when asset class is Investment Grade Corporate Bonds.",
+        "source_doc": "firm_B_brief.md"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "FirmMethod:current_rating_below_ig",
+      "target": "SourceChunk:firm_b_non_ig"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_firm_b_gre",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B measures GRE concentration by parent issuer group rather than legal issuer.",
+        "source_doc": "firm_B_brief.md"
+      },
+      "relation": "SUPPORTED_BY",
+      "source": "FirmMethod:gre_parent_issuer",
+      "target": "SourceChunk:firm_b_gre"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:SGS-01",
+      "target": "AssetClass:Singapore Government Securities"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:SGS-01",
+      "target": "Issuer:Singapore Government"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:SGS-01",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:SGS-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:SGS-02",
+      "target": "AssetClass:Singapore Government Securities"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:SGS-02",
+      "target": "Issuer:Singapore Government"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:SGS-02",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:SGS-02",
+      "target": "Metric:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:MAS-01",
+      "target": "AssetClass:MAS Bills"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:MAS-01",
+      "target": "Issuer:Monetary Authority of Singapore"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:MAS-01",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:MAS-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:COR-01",
+      "target": "AssetClass:Investment Grade Corporate Bonds"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:COR-01",
+      "target": "Issuer:Changi Logistics Pte Ltd"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-01",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:COR-02",
+      "target": "AssetClass:Investment Grade Corporate Bonds"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:COR-02",
+      "target": "Issuer:Lion City Bank"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-02",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-02",
+      "target": "Metric:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:COR-03",
+      "target": "AssetClass:Investment Grade Corporate Bonds"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:COR-03",
+      "target": "Issuer:Redhill Power Pte Ltd"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-03",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-03",
+      "target": "Metric:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ROLLS_UP_TO",
+      "source": "Issuer:Redhill Power Pte Ltd",
+      "target": "ParentIssuer:Redhill Holdings"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:COR-04",
+      "target": "AssetClass:Investment Grade Corporate Bonds"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:COR-04",
+      "target": "Issuer:Redhill Transport Pte Ltd"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-04",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-04",
+      "target": "Metric:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ROLLS_UP_TO",
+      "source": "Issuer:Redhill Transport Pte Ltd",
+      "target": "ParentIssuer:Redhill Holdings"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:COR-05",
+      "target": "AssetClass:Investment Grade Corporate Bonds"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:COR-05",
+      "target": "Issuer:Marina Bay Resorts Ltd"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-05",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:COR-05",
+      "target": "Metric:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_firm_b_non_ig",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B includes current below-investment-grade fallen angels in aggregate non-IG exposure even when asset class is Investment Grade Corporate Bonds.",
+        "source_doc": "firm_B_brief.md"
+      },
+      "relation": "CURRENT_RATING_BELOW_IG",
+      "source": "Position:COR-05",
+      "target": "FirmMethod:current_rating_below_ig"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:HY-01",
+      "target": "AssetClass:High Yield Bonds"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:HY-01",
+      "target": "Issuer:Garuda Energy Tbk"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:HY-01",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:HY-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_firm_b_non_ig",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B includes current below-investment-grade fallen angels in aggregate non-IG exposure even when asset class is Investment Grade Corporate Bonds.",
+        "source_doc": "firm_B_brief.md"
+      },
+      "relation": "CURRENT_RATING_BELOW_IG",
+      "source": "Position:HY-01",
+      "target": "FirmMethod:current_rating_below_ig"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:HY-02",
+      "target": "AssetClass:High Yield Bonds"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:HY-02",
+      "target": "Issuer:Siam Petro PCL"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:HY-02",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:HY-02",
+      "target": "Metric:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_firm_b_non_ig",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B includes current below-investment-grade fallen angels in aggregate non-IG exposure even when asset class is Investment Grade Corporate Bonds.",
+        "source_doc": "firm_B_brief.md"
+      },
+      "relation": "CURRENT_RATING_BELOW_IG",
+      "source": "Position:HY-02",
+      "target": "FirmMethod:current_rating_below_ig"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:FX-01",
+      "target": "AssetClass:Foreign Currency Bonds"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:FX-01",
+      "target": "Issuer:Pacific Telecom Corp"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:FX-01",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:FX-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:SC-01",
+      "target": "AssetClass:Structured Credit"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:SC-01",
+      "target": "Issuer:Harbour ABS Trust"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:SC-01",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:SC-01",
+      "target": "Metric:dv01"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "BELONGS_TO",
+      "source": "Position:CASH-01",
+      "target": "AssetClass:Cash & Cash Equivalents"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "ISSUED_BY",
+      "source": "Position:CASH-01",
+      "target": "Issuer:House Cash"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:CASH-01",
+      "target": "Metric:weighted_duration"
+    },
+    {
+      "properties": {},
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "relation": "HAS_MARKET_VALUE_AND_DURATION",
+      "source": "Position:CASH-01",
+      "target": "Metric:dv01"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Aggregate:liquid_assets",
+      "label": "Aggregate",
+      "properties": {
+        "floor": 25.0,
+        "limit": "min 25%"
+      },
+      "provenance": {
+        "chunk_id": "chunk_liquidity_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.3 - liquid assets are SGS, MAS Bills, and Cash; minimum normal-condition liquidity is 25% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Aggregate:non_ig",
+      "label": "Aggregate",
+      "properties": {
+        "cap": 20.0,
+        "limit": "max 20%"
+      },
+      "provenance": {
+        "chunk_id": "chunk_non_ig_cap_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 note - High Yield plus Structured Credit aggregate non-investment-grade exposure must not exceed 20% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "AssetClass:Cash & Cash Equivalents",
+      "label": "AssetClass",
+      "properties": {
+        "display_name": "Cash & Cash Equivalents",
+        "name": "Cash & Cash Equivalents"
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "AssetClass:Foreign Currency Bonds",
+      "label": "AssetClass",
+      "properties": {
+        "display_name": "Foreign Currency Bonds",
+        "name": "Foreign Currency Bonds"
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "AssetClass:High Yield Bonds",
+      "label": "AssetClass",
+      "properties": {
+        "display_name": "High Yield Bonds",
+        "name": "High Yield Bonds"
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "AssetClass:Investment Grade Corporate Bonds",
+      "label": "AssetClass",
+      "properties": {
+        "display_name": "Investment Grade Corporate Bonds",
+        "name": "Investment Grade Corporate Bonds"
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "AssetClass:MAS Bills",
+      "label": "AssetClass",
+      "properties": {
+        "display_name": "MAS Bills",
+        "name": "MAS Bills"
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "AssetClass:Singapore Government Securities",
+      "label": "AssetClass",
+      "properties": {
+        "display_name": "Singapore Government Securities",
+        "name": "Singapore Government Securities"
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "AssetClass:Structured Credit",
+      "label": "AssetClass",
+      "properties": {
+        "display_name": "Structured Credit (ABS/MBS)",
+        "name": "Structured Credit"
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "FirmMethod:current_rating_below_ig",
+      "label": "FirmMethod",
+      "properties": {
+        "method": "current_rating_below_ig_or_asset_class"
+      },
+      "provenance": {
+        "chunk_id": "chunk_firm_b_non_ig",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B includes current below-investment-grade fallen angels in aggregate non-IG exposure even when asset class is Investment Grade Corporate Bonds.",
+        "source_doc": "firm_B_brief.md"
+      }
+    },
+    {
+      "id": "FirmMethod:gre_parent_issuer",
+      "label": "FirmMethod",
+      "properties": {
+        "method": "parent_issuer"
+      },
+      "provenance": {
+        "chunk_id": "chunk_firm_b_gre",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B measures GRE concentration by parent issuer group rather than legal issuer.",
+        "source_doc": "firm_B_brief.md"
+      }
+    },
+    {
+      "id": "Fund:Meridian Fixed Income Fund",
+      "label": "Fund",
+      "properties": {
+        "base_currency": "SGD"
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Issuer:Changi Logistics Pte Ltd",
+      "label": "Issuer",
+      "properties": {
+        "issuer_type": "corporate",
+        "name": "Changi Logistics Pte Ltd"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Issuer:Garuda Energy Tbk",
+      "label": "Issuer",
+      "properties": {
+        "issuer_type": "corporate",
+        "name": "Garuda Energy Tbk"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Issuer:Harbour ABS Trust",
+      "label": "Issuer",
+      "properties": {
+        "issuer_type": "spv",
+        "name": "Harbour ABS Trust"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Issuer:House Cash",
+      "label": "Issuer",
+      "properties": {
+        "issuer_type": "cash",
+        "name": "House Cash"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Issuer:Lion City Bank",
+      "label": "Issuer",
+      "properties": {
+        "issuer_type": "corporate",
+        "name": "Lion City Bank"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Issuer:Marina Bay Resorts Ltd",
+      "label": "Issuer",
+      "properties": {
+        "issuer_type": "corporate",
+        "name": "Marina Bay Resorts Ltd"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Issuer:Monetary Authority of Singapore",
+      "label": "Issuer",
+      "properties": {
+        "issuer_type": "government",
+        "name": "Monetary Authority of Singapore"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Issuer:Pacific Telecom Corp",
+      "label": "Issuer",
+      "properties": {
+        "issuer_type": "corporate",
+        "name": "Pacific Telecom Corp"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Issuer:Redhill Power Pte Ltd",
+      "label": "Issuer",
+      "properties": {
+        "issuer_type": "GRE",
+        "name": "Redhill Power Pte Ltd"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Issuer:Redhill Transport Pte Ltd",
+      "label": "Issuer",
+      "properties": {
+        "issuer_type": "GRE",
+        "name": "Redhill Transport Pte Ltd"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Issuer:Siam Petro PCL",
+      "label": "Issuer",
+      "properties": {
+        "issuer_type": "corporate",
+        "name": "Siam Petro PCL"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Issuer:Singapore Government",
+      "label": "Issuer",
+      "properties": {
+        "issuer_type": "government",
+        "name": "Singapore Government"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Limit:allocation:Cash & Cash Equivalents",
+      "label": "Limit",
+      "properties": {
+        "kind": "allocation",
+        "limit": "min 5%",
+        "max": 25.0,
+        "min": 5.0
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Limit:allocation:Foreign Currency Bonds",
+      "label": "Limit",
+      "properties": {
+        "kind": "allocation",
+        "limit": "0\u201320%",
+        "max": 20.0,
+        "min": 0.0
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Limit:allocation:High Yield Bonds",
+      "label": "Limit",
+      "properties": {
+        "kind": "allocation",
+        "limit": "0\u201315%",
+        "max": 15.0,
+        "min": 0.0
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Limit:allocation:Investment Grade Corporate Bonds",
+      "label": "Limit",
+      "properties": {
+        "kind": "allocation",
+        "limit": "10\u201350%",
+        "max": 50.0,
+        "min": 10.0
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Limit:allocation:MAS Bills",
+      "label": "Limit",
+      "properties": {
+        "kind": "allocation",
+        "limit": "0\u201340%",
+        "max": 40.0,
+        "min": 0.0
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Limit:allocation:Singapore Government Securities",
+      "label": "Limit",
+      "properties": {
+        "kind": "allocation",
+        "limit": "20\u201360%",
+        "max": 60.0,
+        "min": 20.0
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Limit:allocation:Structured Credit",
+      "label": "Limit",
+      "properties": {
+        "display_name": "Structured Credit (ABS/MBS)",
+        "kind": "allocation",
+        "limit": "0\u201310%",
+        "max": 10.0,
+        "min": 0.0
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Limit:dv01",
+      "label": "Limit",
+      "properties": {
+        "cap": 85000.0,
+        "limit": "max 85,000"
+      },
+      "provenance": {
+        "chunk_id": "chunk_market_risk_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Limit:gre_issuer",
+      "label": "Limit",
+      "properties": {
+        "cap": 12.0,
+        "limit": "max 12%"
+      },
+      "provenance": {
+        "chunk_id": "chunk_concentration_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.2 - single issuer concentration max 8% excluding Singapore Government; GRE capped at 12% per issuer.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Limit:liquidity_normal",
+      "label": "Limit",
+      "properties": {
+        "floor": 25.0,
+        "limit": "min 25%"
+      },
+      "provenance": {
+        "chunk_id": "chunk_liquidity_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.3 - liquid assets are SGS, MAS Bills, and Cash; minimum normal-condition liquidity is 25% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Limit:modified_duration",
+      "label": "Limit",
+      "properties": {
+        "limit": "2.0\u20136.5 yrs",
+        "max": 6.5,
+        "min": 2.0
+      },
+      "provenance": {
+        "chunk_id": "chunk_market_risk_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Limit:single_corporate_issuer",
+      "label": "Limit",
+      "properties": {
+        "cap": 8.0,
+        "limit": "max 8%"
+      },
+      "provenance": {
+        "chunk_id": "chunk_concentration_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.2 - single issuer concentration max 8% excluding Singapore Government; GRE capped at 12% per issuer.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Metric:dv01",
+      "label": "Metric",
+      "properties": {
+        "name": "dv01"
+      },
+      "provenance": {
+        "chunk_id": "chunk_market_risk_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "Metric:weighted_duration",
+      "label": "Metric",
+      "properties": {
+        "name": "weighted_duration"
+      },
+      "provenance": {
+        "chunk_id": "chunk_market_risk_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "ParentIssuer:Redhill Holdings",
+      "label": "ParentIssuer",
+      "properties": {
+        "name": "Redhill Holdings"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:CASH-01",
+      "label": "Position",
+      "properties": {
+        "asset_class": "Cash & Cash Equivalents",
+        "credit_rating": "",
+        "downgraded_from": "",
+        "instrument_id": "CASH-01",
+        "instrument_name": "SGD Cash",
+        "issuer_name": "House Cash",
+        "issuer_type": "cash",
+        "market_value_sgd": "4000000",
+        "modified_duration": "0.0",
+        "parent_issuer": ""
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:COR-01",
+      "label": "Position",
+      "properties": {
+        "asset_class": "Investment Grade Corporate Bonds",
+        "credit_rating": "BBB+",
+        "downgraded_from": "",
+        "instrument_id": "COR-01",
+        "instrument_name": "Changi Logistics 3.2% 2029",
+        "issuer_name": "Changi Logistics Pte Ltd",
+        "issuer_type": "corporate",
+        "market_value_sgd": "8000000",
+        "modified_duration": "4.5",
+        "parent_issuer": ""
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:COR-02",
+      "label": "Position",
+      "properties": {
+        "asset_class": "Investment Grade Corporate Bonds",
+        "credit_rating": "A-",
+        "downgraded_from": "",
+        "instrument_id": "COR-02",
+        "instrument_name": "Lion City Bank 3.5% 2031",
+        "issuer_name": "Lion City Bank",
+        "issuer_type": "corporate",
+        "market_value_sgd": "6000000",
+        "modified_duration": "4.5",
+        "parent_issuer": ""
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:COR-03",
+      "label": "Position",
+      "properties": {
+        "asset_class": "Investment Grade Corporate Bonds",
+        "credit_rating": "A",
+        "downgraded_from": "",
+        "instrument_id": "COR-03",
+        "instrument_name": "Redhill Power 3.1% 2030",
+        "issuer_name": "Redhill Power Pte Ltd",
+        "issuer_type": "GRE",
+        "market_value_sgd": "7000000",
+        "modified_duration": "4.5",
+        "parent_issuer": "Redhill Holdings"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:COR-04",
+      "label": "Position",
+      "properties": {
+        "asset_class": "Investment Grade Corporate Bonds",
+        "credit_rating": "A",
+        "downgraded_from": "",
+        "instrument_id": "COR-04",
+        "instrument_name": "Redhill Transport 3.0% 2032",
+        "issuer_name": "Redhill Transport Pte Ltd",
+        "issuer_type": "GRE",
+        "market_value_sgd": "6000000",
+        "modified_duration": "4.5",
+        "parent_issuer": "Redhill Holdings"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:COR-05",
+      "label": "Position",
+      "properties": {
+        "asset_class": "Investment Grade Corporate Bonds",
+        "credit_rating": "BB",
+        "downgraded_from": "BBB-",
+        "instrument_id": "COR-05",
+        "instrument_name": "Marina Bay Resorts 4.0% 2028",
+        "issuer_name": "Marina Bay Resorts Ltd",
+        "issuer_type": "corporate",
+        "market_value_sgd": "6000000",
+        "modified_duration": "4.5",
+        "parent_issuer": ""
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:FX-01",
+      "label": "Position",
+      "properties": {
+        "asset_class": "Foreign Currency Bonds",
+        "credit_rating": "BBB",
+        "downgraded_from": "",
+        "instrument_id": "FX-01",
+        "instrument_name": "USD IG Bond (hedged) 3.8% 2030",
+        "issuer_name": "Pacific Telecom Corp",
+        "issuer_type": "corporate",
+        "market_value_sgd": "5000000",
+        "modified_duration": "4.0",
+        "parent_issuer": ""
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:HY-01",
+      "label": "Position",
+      "properties": {
+        "asset_class": "High Yield Bonds",
+        "credit_rating": "BB",
+        "downgraded_from": "",
+        "instrument_id": "HY-01",
+        "instrument_name": "APAC Yield 5.5% 2027",
+        "issuer_name": "Garuda Energy Tbk",
+        "issuer_type": "corporate",
+        "market_value_sgd": "5000000",
+        "modified_duration": "3.0",
+        "parent_issuer": ""
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:HY-02",
+      "label": "Position",
+      "properties": {
+        "asset_class": "High Yield Bonds",
+        "credit_rating": "BB-",
+        "downgraded_from": "",
+        "instrument_id": "HY-02",
+        "instrument_name": "APAC Yield 6.0% 2026",
+        "issuer_name": "Siam Petro PCL",
+        "issuer_type": "corporate",
+        "market_value_sgd": "4000000",
+        "modified_duration": "3.0",
+        "parent_issuer": ""
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:MAS-01",
+      "label": "Position",
+      "properties": {
+        "asset_class": "MAS Bills",
+        "credit_rating": "AAA",
+        "downgraded_from": "",
+        "instrument_id": "MAS-01",
+        "instrument_name": "MAS Bill 12W",
+        "issuer_name": "Monetary Authority of Singapore",
+        "issuer_type": "government",
+        "market_value_sgd": "8000000",
+        "modified_duration": "0.3",
+        "parent_issuer": ""
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:SC-01",
+      "label": "Position",
+      "properties": {
+        "asset_class": "Structured Credit",
+        "credit_rating": "AAA",
+        "downgraded_from": "",
+        "instrument_id": "SC-01",
+        "instrument_name": "AAA ABS Series 2024-1",
+        "issuer_name": "Harbour ABS Trust",
+        "issuer_type": "spv",
+        "market_value_sgd": "6000000",
+        "modified_duration": "2.5",
+        "parent_issuer": ""
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:SGS-01",
+      "label": "Position",
+      "properties": {
+        "asset_class": "Singapore Government Securities",
+        "credit_rating": "AAA",
+        "downgraded_from": "",
+        "instrument_id": "SGS-01",
+        "instrument_name": "SGS 2.5% 2030",
+        "issuer_name": "Singapore Government",
+        "issuer_type": "government",
+        "market_value_sgd": "20000000",
+        "modified_duration": "5.0",
+        "parent_issuer": ""
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "Position:SGS-02",
+      "label": "Position",
+      "properties": {
+        "asset_class": "Singapore Government Securities",
+        "credit_rating": "AAA",
+        "downgraded_from": "",
+        "instrument_id": "SGS-02",
+        "instrument_name": "SGS 3.0% 2034",
+        "issuer_name": "Singapore Government",
+        "issuer_type": "government",
+        "market_value_sgd": "15000000",
+        "modified_duration": "5.0",
+        "parent_issuer": ""
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "SourceChunk:aggregate_non_ig",
+      "label": "SourceChunk",
+      "properties": {
+        "chunk_id": "chunk_non_ig_cap_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 note - High Yield plus Structured Credit aggregate non-investment-grade exposure must not exceed 20% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "provenance": {
+        "chunk_id": "chunk_non_ig_cap_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 note - High Yield plus Structured Credit aggregate non-investment-grade exposure must not exceed 20% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "SourceChunk:allocation_limits",
+      "label": "SourceChunk",
+      "properties": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "provenance": {
+        "chunk_id": "chunk_alloc_limits_p2",
+        "extraction_confidence": 1.0,
+        "page": 2,
+        "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "SourceChunk:concentration",
+      "label": "SourceChunk",
+      "properties": {
+        "chunk_id": "chunk_concentration_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.2 - single issuer concentration max 8% excluding Singapore Government; GRE capped at 12% per issuer.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "provenance": {
+        "chunk_id": "chunk_concentration_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.2 - single issuer concentration max 8% excluding Singapore Government; GRE capped at 12% per issuer.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "SourceChunk:firm_b_gre",
+      "label": "SourceChunk",
+      "properties": {
+        "chunk_id": "chunk_firm_b_gre",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B measures GRE concentration by parent issuer group rather than legal issuer.",
+        "source_doc": "firm_B_brief.md"
+      },
+      "provenance": {
+        "chunk_id": "chunk_firm_b_gre",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B measures GRE concentration by parent issuer group rather than legal issuer.",
+        "source_doc": "firm_B_brief.md"
+      }
+    },
+    {
+      "id": "SourceChunk:firm_b_non_ig",
+      "label": "SourceChunk",
+      "properties": {
+        "chunk_id": "chunk_firm_b_non_ig",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B includes current below-investment-grade fallen angels in aggregate non-IG exposure even when asset class is Investment Grade Corporate Bonds.",
+        "source_doc": "firm_B_brief.md"
+      },
+      "provenance": {
+        "chunk_id": "chunk_firm_b_non_ig",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B includes current below-investment-grade fallen angels in aggregate non-IG exposure even when asset class is Investment Grade Corporate Bonds.",
+        "source_doc": "firm_B_brief.md"
+      }
+    },
+    {
+      "id": "SourceChunk:firm_b_utilization",
+      "label": "SourceChunk",
+      "properties": {
+        "chunk_id": "chunk_firm_b_utilization",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B reports utilization as truncated basis points rather than one-decimal percentage.",
+        "source_doc": "firm_B_brief.md"
+      },
+      "provenance": {
+        "chunk_id": "chunk_firm_b_utilization",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Firm B reports utilization as truncated basis points rather than one-decimal percentage.",
+        "source_doc": "firm_B_brief.md"
+      }
+    },
+    {
+      "id": "SourceChunk:holdings",
+      "label": "SourceChunk",
+      "properties": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      },
+      "provenance": {
+        "chunk_id": "chunk_holdings_csv",
+        "extraction_confidence": 1.0,
+        "page": 1,
+        "passage_summary": "Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.",
+        "source_doc": "sample_holdings.csv"
+      }
+    },
+    {
+      "id": "SourceChunk:liquidity",
+      "label": "SourceChunk",
+      "properties": {
+        "chunk_id": "chunk_liquidity_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.3 - liquid assets are SGS, MAS Bills, and Cash; minimum normal-condition liquidity is 25% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "provenance": {
+        "chunk_id": "chunk_liquidity_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.3 - liquid assets are SGS, MAS Bills, and Cash; minimum normal-condition liquidity is 25% of NAV.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    },
+    {
+      "id": "SourceChunk:market_risk",
+      "label": "SourceChunk",
+      "properties": {
+        "chunk_id": "chunk_market_risk_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      },
+      "provenance": {
+        "chunk_id": "chunk_market_risk_p3",
+        "extraction_confidence": 1.0,
+        "page": 3,
+        "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+        "source_doc": "sample_fund_guidelines.pdf"
+      }
+    }
+  ]
+}

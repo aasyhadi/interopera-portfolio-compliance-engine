@@ -1,0 +1,19 @@
+firm_id: firm_B
+name: Firm B
+answer_key: sample_docs/firm_B_answer_key.xlsx
+output_report: outputs/firm_B_report.xlsx
+utilization_style: truncated_bps
+non_ig_method: current_rating_below_ig_or_asset_class
+non_ig_asset_classes:
+  - High Yield Bonds
+  - Structured Credit
+fallen_angel_include: true
+gre_concentration_method: parent_issuer
+rounding:
+  percent_decimals: 1
+  duration_decimals: 2
+  dv01_decimals: 0
+tolerance:
+  percent_points: 0.05
+  duration_years: 0.005
+  currency: 1

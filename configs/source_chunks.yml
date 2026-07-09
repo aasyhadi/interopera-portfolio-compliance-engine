@@ -1,0 +1,55 @@
+chunks:
+  allocation_limits:
+    source_doc: sample_fund_guidelines.pdf
+    page: 2
+    chunk_id: chunk_alloc_limits_p2
+    extraction_confidence: 1.0
+    passage_summary: Section 2 - permitted investments and allocation limits expressed as NAV percentages.
+  aggregate_non_ig:
+    source_doc: sample_fund_guidelines.pdf
+    page: 2
+    chunk_id: chunk_non_ig_cap_p2
+    extraction_confidence: 1.0
+    passage_summary: Section 2 note - High Yield plus Structured Credit aggregate non-investment-grade exposure must not exceed 20% of NAV.
+  market_risk:
+    source_doc: sample_fund_guidelines.pdf
+    page: 3
+    chunk_id: chunk_market_risk_p3
+    extraction_confidence: 1.0
+    passage_summary: Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.
+  concentration:
+    source_doc: sample_fund_guidelines.pdf
+    page: 3
+    chunk_id: chunk_concentration_p3
+    extraction_confidence: 1.0
+    passage_summary: Section 3.2 - single issuer concentration max 8% excluding Singapore Government; GRE capped at 12% per issuer.
+  liquidity:
+    source_doc: sample_fund_guidelines.pdf
+    page: 3
+    chunk_id: chunk_liquidity_p3
+    extraction_confidence: 1.0
+    passage_summary: Section 3.3 - liquid assets are SGS, MAS Bills, and Cash; minimum normal-condition liquidity is 25% of NAV.
+  holdings:
+    source_doc: sample_holdings.csv
+    page: 1
+    chunk_id: chunk_holdings_csv
+    extraction_confidence: 1.0
+    passage_summary: Period-end holdings snapshot with position market values, asset class, issuer, parent issuer, rating, and modified duration.
+  firm_b_non_ig:
+    source_doc: firm_B_brief.md
+    page: 1
+    chunk_id: chunk_firm_b_non_ig
+    extraction_confidence: 1.0
+    passage_summary: Firm B includes current below-investment-grade fallen angels in aggregate non-IG exposure even when asset class is Investment Grade Corporate Bonds.
+  firm_b_gre:
+    source_doc: firm_B_brief.md
+    page: 1
+    chunk_id: chunk_firm_b_gre
+    extraction_confidence: 1.0
+    passage_summary: Firm B measures GRE concentration by parent issuer group rather than legal issuer.
+  firm_b_utilization:
+    source_doc: firm_B_brief.md
+    page: 1
+    chunk_id: chunk_firm_b_utilization
+    extraction_confidence: 1.0
+    passage_summary: Firm B reports utilization as truncated basis points rather than one-decimal percentage.

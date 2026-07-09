@@ -1,0 +1,75 @@
+{
+  "citation": {
+    "chunk_id": "chunk_liquidity_p3",
+    "page": 3,
+    "passage_summary": "Section 3.3 - liquid assets are SGS, MAS Bills, and Cash; minimum normal-condition liquidity is 25% of NAV.",
+    "source_doc": "sample_fund_guidelines.pdf"
+  },
+  "config_rule": "liquidity.normal_floor",
+  "denominator": 100000000.0,
+  "figure": "liquid_assets_ratio",
+  "firm": "firm_B",
+  "formula": "sum(liquid_asset_market_value) / total_nav * 100",
+  "graph_edges": [
+    {
+      "relation": "CONTRIBUTES_TO",
+      "source": "AssetClass:Singapore Government Securities",
+      "target": "Aggregate:liquid_assets"
+    },
+    {
+      "relation": "CONTRIBUTES_TO",
+      "source": "AssetClass:MAS Bills",
+      "target": "Aggregate:liquid_assets"
+    },
+    {
+      "relation": "CONTRIBUTES_TO",
+      "source": "AssetClass:Cash & Cash Equivalents",
+      "target": "Aggregate:liquid_assets"
+    }
+  ],
+  "graph_path": "(AssetClass:SGS|MAS Bills|Cash)-[:CONTRIBUTES_TO]->(Aggregate:liquid_assets)-[:SUPPORTED_BY]->(SourceChunk:liquidity); (Limit:liquidity_normal)-[:SUPPORTED_BY]->(SourceChunk:liquidity)",
+  "limit": "min 25%",
+  "metric": "Liquid assets ratio",
+  "numerator": 47000000.0,
+  "replay_statement": "Liquid assets ratio = 47000000.0 / 100000000.0 using formula: sum(liquid_asset_market_value) / total_nav * 100; display value 47.0%.",
+  "source_positions": [
+    {
+      "asset_class": "Cash & Cash Equivalents",
+      "credit_rating": "",
+      "instrument_id": "CASH-01",
+      "instrument_name": "SGD Cash",
+      "issuer_name": "House Cash",
+      "market_value_sgd": 4000000.0,
+      "modified_duration": 0.0
+    },
+    {
+      "asset_class": "MAS Bills",
+      "credit_rating": "AAA",
+      "instrument_id": "MAS-01",
+      "instrument_name": "MAS Bill 12W",
+      "issuer_name": "Monetary Authority of Singapore",
+      "market_value_sgd": 8000000.0,
+      "modified_duration": 0.3
+    },
+    {
+      "asset_class": "Singapore Government Securities",
+      "credit_rating": "AAA",
+      "instrument_id": "SGS-01",
+      "instrument_name": "SGS 2.5% 2030",
+      "issuer_name": "Singapore Government",
+      "market_value_sgd": 20000000.0,
+      "modified_duration": 5.0
+    },
+    {
+      "asset_class": "Singapore Government Securities",
+      "credit_rating": "AAA",
+      "instrument_id": "SGS-02",
+      "instrument_name": "SGS 3.0% 2034",
+      "issuer_name": "Singapore Government",
+      "market_value_sgd": 15000000.0,
+      "modified_duration": 5.0
+    }
+  ],
+  "status": "OK",
+  "value": "47.0%"
+}

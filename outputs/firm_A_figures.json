@@ -1,0 +1,1123 @@
+[
+  {
+    "calculation": {
+      "denominator": 100000000.0,
+      "formula": "sum(asset_class_market_value) / total_nav * 100",
+      "numerator": 35000000.0,
+      "positions": [
+        {
+          "asset_class": "Singapore Government Securities",
+          "credit_rating": "AAA",
+          "instrument_id": "SGS-01",
+          "instrument_name": "SGS 2.5% 2030",
+          "issuer_name": "Singapore Government",
+          "market_value_sgd": 20000000.0,
+          "modified_duration": 5.0
+        },
+        {
+          "asset_class": "Singapore Government Securities",
+          "credit_rating": "AAA",
+          "instrument_id": "SGS-02",
+          "instrument_name": "SGS 3.0% 2034",
+          "issuer_name": "Singapore Government",
+          "market_value_sgd": 15000000.0,
+          "modified_duration": 5.0
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_alloc_limits_p2",
+      "page": 2,
+      "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "SGS-01",
+      "SGS-02"
+    ],
+    "config_rule": "allocation_limits",
+    "figure": "allocation_singapore_government_securities",
+    "graph_edges": [
+      {
+        "relation": "APPLIES_TO",
+        "source": "Limit:allocation:Singapore Government Securities",
+        "target": "AssetClass:Singapore Government Securities"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:SGS-01",
+        "target": "AssetClass:Singapore Government Securities"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:SGS-02",
+        "target": "AssetClass:Singapore Government Securities"
+      }
+    ],
+    "graph_path": "(Limit:allocation:Singapore Government Securities)-[:APPLIES_TO]->(AssetClass:Singapore Government Securities)<-[:BELONGS_TO]-(Position:SGS-01,SGS-02)",
+    "limit": "20\u201360%",
+    "metric": "Singapore Government Securities",
+    "section": "Allocation",
+    "status": "OK",
+    "utilization": "58.3%",
+    "value": "35.0%"
+  },
+  {
+    "calculation": {
+      "denominator": 100000000.0,
+      "formula": "sum(asset_class_market_value) / total_nav * 100",
+      "numerator": 8000000.0,
+      "positions": [
+        {
+          "asset_class": "MAS Bills",
+          "credit_rating": "AAA",
+          "instrument_id": "MAS-01",
+          "instrument_name": "MAS Bill 12W",
+          "issuer_name": "Monetary Authority of Singapore",
+          "market_value_sgd": 8000000.0,
+          "modified_duration": 0.3
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_alloc_limits_p2",
+      "page": 2,
+      "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "MAS-01"
+    ],
+    "config_rule": "allocation_limits",
+    "figure": "allocation_mas_bills",
+    "graph_edges": [
+      {
+        "relation": "APPLIES_TO",
+        "source": "Limit:allocation:MAS Bills",
+        "target": "AssetClass:MAS Bills"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:MAS-01",
+        "target": "AssetClass:MAS Bills"
+      }
+    ],
+    "graph_path": "(Limit:allocation:MAS Bills)-[:APPLIES_TO]->(AssetClass:MAS Bills)<-[:BELONGS_TO]-(Position:MAS-01)",
+    "limit": "0\u201340%",
+    "metric": "MAS Bills",
+    "section": "Allocation",
+    "status": "OK",
+    "utilization": "20.0%",
+    "value": "8.0%"
+  },
+  {
+    "calculation": {
+      "denominator": 100000000.0,
+      "formula": "sum(asset_class_market_value) / total_nav * 100",
+      "numerator": 33000000.0,
+      "positions": [
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "BBB+",
+          "instrument_id": "COR-01",
+          "instrument_name": "Changi Logistics 3.2% 2029",
+          "issuer_name": "Changi Logistics Pte Ltd",
+          "market_value_sgd": 8000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "A-",
+          "instrument_id": "COR-02",
+          "instrument_name": "Lion City Bank 3.5% 2031",
+          "issuer_name": "Lion City Bank",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "A",
+          "instrument_id": "COR-03",
+          "instrument_name": "Redhill Power 3.1% 2030",
+          "issuer_name": "Redhill Power Pte Ltd",
+          "market_value_sgd": 7000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "A",
+          "instrument_id": "COR-04",
+          "instrument_name": "Redhill Transport 3.0% 2032",
+          "issuer_name": "Redhill Transport Pte Ltd",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "BB",
+          "instrument_id": "COR-05",
+          "instrument_name": "Marina Bay Resorts 4.0% 2028",
+          "issuer_name": "Marina Bay Resorts Ltd",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 4.5
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_alloc_limits_p2",
+      "page": 2,
+      "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "COR-01",
+      "COR-02",
+      "COR-03",
+      "COR-04",
+      "COR-05"
+    ],
+    "config_rule": "allocation_limits",
+    "figure": "allocation_investment_grade_corporate_bonds",
+    "graph_edges": [
+      {
+        "relation": "APPLIES_TO",
+        "source": "Limit:allocation:Investment Grade Corporate Bonds",
+        "target": "AssetClass:Investment Grade Corporate Bonds"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:COR-01",
+        "target": "AssetClass:Investment Grade Corporate Bonds"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:COR-02",
+        "target": "AssetClass:Investment Grade Corporate Bonds"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:COR-03",
+        "target": "AssetClass:Investment Grade Corporate Bonds"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:COR-04",
+        "target": "AssetClass:Investment Grade Corporate Bonds"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:COR-05",
+        "target": "AssetClass:Investment Grade Corporate Bonds"
+      }
+    ],
+    "graph_path": "(Limit:allocation:Investment Grade Corporate Bonds)-[:APPLIES_TO]->(AssetClass:Investment Grade Corporate Bonds)<-[:BELONGS_TO]-(Position:COR-01,COR-02,COR-03,COR-04,COR-05)",
+    "limit": "10\u201350%",
+    "metric": "Investment Grade Corporate Bonds",
+    "section": "Allocation",
+    "status": "OK",
+    "utilization": "66.0%",
+    "value": "33.0%"
+  },
+  {
+    "calculation": {
+      "denominator": 100000000.0,
+      "formula": "sum(asset_class_market_value) / total_nav * 100",
+      "numerator": 9000000.0,
+      "positions": [
+        {
+          "asset_class": "High Yield Bonds",
+          "credit_rating": "BB",
+          "instrument_id": "HY-01",
+          "instrument_name": "APAC Yield 5.5% 2027",
+          "issuer_name": "Garuda Energy Tbk",
+          "market_value_sgd": 5000000.0,
+          "modified_duration": 3.0
+        },
+        {
+          "asset_class": "High Yield Bonds",
+          "credit_rating": "BB-",
+          "instrument_id": "HY-02",
+          "instrument_name": "APAC Yield 6.0% 2026",
+          "issuer_name": "Siam Petro PCL",
+          "market_value_sgd": 4000000.0,
+          "modified_duration": 3.0
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_alloc_limits_p2",
+      "page": 2,
+      "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "HY-01",
+      "HY-02"
+    ],
+    "config_rule": "allocation_limits",
+    "figure": "allocation_high_yield_bonds",
+    "graph_edges": [
+      {
+        "relation": "APPLIES_TO",
+        "source": "Limit:allocation:High Yield Bonds",
+        "target": "AssetClass:High Yield Bonds"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:HY-01",
+        "target": "AssetClass:High Yield Bonds"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:HY-02",
+        "target": "AssetClass:High Yield Bonds"
+      }
+    ],
+    "graph_path": "(Limit:allocation:High Yield Bonds)-[:APPLIES_TO]->(AssetClass:High Yield Bonds)<-[:BELONGS_TO]-(Position:HY-01,HY-02)",
+    "limit": "0\u201315%",
+    "metric": "High Yield Bonds",
+    "section": "Allocation",
+    "status": "OK",
+    "utilization": "60.0%",
+    "value": "9.0%"
+  },
+  {
+    "calculation": {
+      "denominator": 100000000.0,
+      "formula": "sum(asset_class_market_value) / total_nav * 100",
+      "numerator": 5000000.0,
+      "positions": [
+        {
+          "asset_class": "Foreign Currency Bonds",
+          "credit_rating": "BBB",
+          "instrument_id": "FX-01",
+          "instrument_name": "USD IG Bond (hedged) 3.8% 2030",
+          "issuer_name": "Pacific Telecom Corp",
+          "market_value_sgd": 5000000.0,
+          "modified_duration": 4.0
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_alloc_limits_p2",
+      "page": 2,
+      "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "FX-01"
+    ],
+    "config_rule": "allocation_limits",
+    "figure": "allocation_foreign_currency_bonds",
+    "graph_edges": [
+      {
+        "relation": "APPLIES_TO",
+        "source": "Limit:allocation:Foreign Currency Bonds",
+        "target": "AssetClass:Foreign Currency Bonds"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:FX-01",
+        "target": "AssetClass:Foreign Currency Bonds"
+      }
+    ],
+    "graph_path": "(Limit:allocation:Foreign Currency Bonds)-[:APPLIES_TO]->(AssetClass:Foreign Currency Bonds)<-[:BELONGS_TO]-(Position:FX-01)",
+    "limit": "0\u201320%",
+    "metric": "Foreign Currency Bonds (hedged)",
+    "section": "Allocation",
+    "status": "OK",
+    "utilization": "25.0%",
+    "value": "5.0%"
+  },
+  {
+    "calculation": {
+      "denominator": 100000000.0,
+      "formula": "sum(asset_class_market_value) / total_nav * 100",
+      "numerator": 6000000.0,
+      "positions": [
+        {
+          "asset_class": "Structured Credit",
+          "credit_rating": "AAA",
+          "instrument_id": "SC-01",
+          "instrument_name": "AAA ABS Series 2024-1",
+          "issuer_name": "Harbour ABS Trust",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 2.5
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_alloc_limits_p2",
+      "page": 2,
+      "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "SC-01"
+    ],
+    "config_rule": "allocation_limits",
+    "figure": "allocation_structured_credit",
+    "graph_edges": [
+      {
+        "relation": "APPLIES_TO",
+        "source": "Limit:allocation:Structured Credit",
+        "target": "AssetClass:Structured Credit"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:SC-01",
+        "target": "AssetClass:Structured Credit"
+      }
+    ],
+    "graph_path": "(Limit:allocation:Structured Credit)-[:APPLIES_TO]->(AssetClass:Structured Credit)<-[:BELONGS_TO]-(Position:SC-01)",
+    "limit": "0\u201310%",
+    "metric": "Structured Credit (ABS/MBS)",
+    "section": "Allocation",
+    "status": "OK",
+    "utilization": "60.0%",
+    "value": "6.0%"
+  },
+  {
+    "calculation": {
+      "denominator": 100000000.0,
+      "formula": "sum(asset_class_market_value) / total_nav * 100",
+      "numerator": 4000000.0,
+      "positions": [
+        {
+          "asset_class": "Cash & Cash Equivalents",
+          "credit_rating": "",
+          "instrument_id": "CASH-01",
+          "instrument_name": "SGD Cash",
+          "issuer_name": "House Cash",
+          "market_value_sgd": 4000000.0,
+          "modified_duration": 0.0
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_alloc_limits_p2",
+      "page": 2,
+      "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "CASH-01"
+    ],
+    "config_rule": "allocation_limits",
+    "figure": "allocation_cash_cash_equivalents",
+    "graph_edges": [
+      {
+        "relation": "APPLIES_TO",
+        "source": "Limit:allocation:Cash & Cash Equivalents",
+        "target": "AssetClass:Cash & Cash Equivalents"
+      },
+      {
+        "relation": "BELONGS_TO",
+        "source": "Position:CASH-01",
+        "target": "AssetClass:Cash & Cash Equivalents"
+      }
+    ],
+    "graph_path": "(Limit:allocation:Cash & Cash Equivalents)-[:APPLIES_TO]->(AssetClass:Cash & Cash Equivalents)<-[:BELONGS_TO]-(Position:CASH-01)",
+    "limit": "min 5%",
+    "metric": "Cash & Cash Equivalents",
+    "section": "Allocation",
+    "status": "BREACH",
+    "utilization": "n/a",
+    "value": "4.0%"
+  },
+  {
+    "calculation": {
+      "denominator": 100000000.0,
+      "formula": "sum(non_ig_position_market_value) / total_nav * 100",
+      "numerator": 15000000.0,
+      "positions": [
+        {
+          "asset_class": "High Yield Bonds",
+          "credit_rating": "BB",
+          "instrument_id": "HY-01",
+          "instrument_name": "APAC Yield 5.5% 2027",
+          "issuer_name": "Garuda Energy Tbk",
+          "market_value_sgd": 5000000.0,
+          "modified_duration": 3.0
+        },
+        {
+          "asset_class": "High Yield Bonds",
+          "credit_rating": "BB-",
+          "instrument_id": "HY-02",
+          "instrument_name": "APAC Yield 6.0% 2026",
+          "issuer_name": "Siam Petro PCL",
+          "market_value_sgd": 4000000.0,
+          "modified_duration": 3.0
+        },
+        {
+          "asset_class": "Structured Credit",
+          "credit_rating": "AAA",
+          "instrument_id": "SC-01",
+          "instrument_name": "AAA ABS Series 2024-1",
+          "issuer_name": "Harbour ABS Trust",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 2.5
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_non_ig_cap_p2",
+      "page": 2,
+      "passage_summary": "Section 2 note - High Yield plus Structured Credit aggregate non-investment-grade exposure must not exceed 20% of NAV.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "HY-01",
+      "HY-02",
+      "SC-01"
+    ],
+    "config_rule": "firm_A.non_ig.asset_class_contributors",
+    "figure": "aggregate_non_ig_exposure",
+    "graph_edges": [
+      {
+        "relation": "CONTRIBUTES_TO",
+        "source": "AssetClass:High Yield Bonds",
+        "target": "Aggregate:non_ig"
+      },
+      {
+        "relation": "CONTRIBUTES_TO",
+        "source": "AssetClass:Structured Credit",
+        "target": "Aggregate:non_ig"
+      }
+    ],
+    "graph_path": "(AssetClass:High Yield Bonds)-[:CONTRIBUTES_TO]->(Aggregate:non_ig)<-[:CONTRIBUTES_TO]-(AssetClass:Structured Credit)",
+    "limit": "max 20%",
+    "metric": "Aggregate non-IG exposure",
+    "section": "Aggregate",
+    "status": "OK",
+    "utilization": "75.0%",
+    "value": "15.0%"
+  },
+  {
+    "calculation": {
+      "denominator": 100000000.0,
+      "formula": "max(sum(corporate_issuer_market_value)) / total_nav * 100",
+      "issuer": "Changi Logistics Pte Ltd",
+      "numerator": 8000000.0,
+      "positions": [
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "BBB+",
+          "instrument_id": "COR-01",
+          "instrument_name": "Changi Logistics 3.2% 2029",
+          "issuer_name": "Changi Logistics Pte Ltd",
+          "market_value_sgd": 8000000.0,
+          "modified_duration": 4.5
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_concentration_p3",
+      "page": 3,
+      "passage_summary": "Section 3.2 - single issuer concentration max 8% excluding Singapore Government; GRE capped at 12% per issuer.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "COR-01"
+    ],
+    "config_rule": "single_corporate_issuer",
+    "figure": "largest_single_corporate_issuer",
+    "graph_edges": [
+      {
+        "relation": "ISSUED_BY",
+        "source": "Position:COR-01",
+        "target": "Issuer:Changi Logistics Pte Ltd"
+      }
+    ],
+    "graph_path": "(Position:COR-01)-[:ISSUED_BY]->(Issuer:Changi Logistics Pte Ltd); (Limit:single_corporate_issuer)-[:SUPPORTED_BY]->(SourceChunk:concentration)",
+    "limit": "max 8%",
+    "metric": "Largest single corporate issuer",
+    "section": "Concentration",
+    "status": "AT LIMIT",
+    "utilization": "100.0%",
+    "value": "8.0%"
+  },
+  {
+    "calculation": {
+      "denominator": 100000000.0,
+      "formula": "max(sum(gre_group_market_value)) / total_nav * 100",
+      "issuer_or_parent": "Redhill Power Pte Ltd",
+      "numerator": 7000000.0,
+      "positions": [
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "A",
+          "instrument_id": "COR-03",
+          "instrument_name": "Redhill Power 3.1% 2030",
+          "issuer_name": "Redhill Power Pte Ltd",
+          "market_value_sgd": 7000000.0,
+          "modified_duration": 4.5
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_concentration_p3",
+      "page": 3,
+      "passage_summary": "Section 3.2 - single issuer concentration max 8% excluding Singapore Government; GRE capped at 12% per issuer.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "COR-03"
+    ],
+    "config_rule": "firm_A.gre.issuer",
+    "figure": "largest_gre_issuer",
+    "graph_edges": [
+      {
+        "relation": "ISSUED_BY",
+        "source": "Position:COR-03",
+        "target": "Issuer:Redhill Power Pte Ltd"
+      }
+    ],
+    "graph_path": "(Position:*)-[:ISSUED_BY]->(Issuer:GRE*)-[:TESTED_AGAINST]->(Limit:gre_issuer)",
+    "limit": "max 12%",
+    "metric": "Largest GRE issuer",
+    "section": "Concentration",
+    "status": "OK",
+    "utilization": "58.3%",
+    "value": "7.0%"
+  },
+  {
+    "calculation": {
+      "denominator": 100000000.0,
+      "formula": "sum(liquid_asset_market_value) / total_nav * 100",
+      "numerator": 47000000.0,
+      "positions": [
+        {
+          "asset_class": "Cash & Cash Equivalents",
+          "credit_rating": "",
+          "instrument_id": "CASH-01",
+          "instrument_name": "SGD Cash",
+          "issuer_name": "House Cash",
+          "market_value_sgd": 4000000.0,
+          "modified_duration": 0.0
+        },
+        {
+          "asset_class": "MAS Bills",
+          "credit_rating": "AAA",
+          "instrument_id": "MAS-01",
+          "instrument_name": "MAS Bill 12W",
+          "issuer_name": "Monetary Authority of Singapore",
+          "market_value_sgd": 8000000.0,
+          "modified_duration": 0.3
+        },
+        {
+          "asset_class": "Singapore Government Securities",
+          "credit_rating": "AAA",
+          "instrument_id": "SGS-01",
+          "instrument_name": "SGS 2.5% 2030",
+          "issuer_name": "Singapore Government",
+          "market_value_sgd": 20000000.0,
+          "modified_duration": 5.0
+        },
+        {
+          "asset_class": "Singapore Government Securities",
+          "credit_rating": "AAA",
+          "instrument_id": "SGS-02",
+          "instrument_name": "SGS 3.0% 2034",
+          "issuer_name": "Singapore Government",
+          "market_value_sgd": 15000000.0,
+          "modified_duration": 5.0
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_liquidity_p3",
+      "page": 3,
+      "passage_summary": "Section 3.3 - liquid assets are SGS, MAS Bills, and Cash; minimum normal-condition liquidity is 25% of NAV.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "CASH-01",
+      "MAS-01",
+      "SGS-01",
+      "SGS-02"
+    ],
+    "config_rule": "liquidity.normal_floor",
+    "figure": "liquid_assets_ratio",
+    "graph_edges": [
+      {
+        "relation": "CONTRIBUTES_TO",
+        "source": "AssetClass:Singapore Government Securities",
+        "target": "Aggregate:liquid_assets"
+      },
+      {
+        "relation": "CONTRIBUTES_TO",
+        "source": "AssetClass:MAS Bills",
+        "target": "Aggregate:liquid_assets"
+      },
+      {
+        "relation": "CONTRIBUTES_TO",
+        "source": "AssetClass:Cash & Cash Equivalents",
+        "target": "Aggregate:liquid_assets"
+      }
+    ],
+    "graph_path": "(AssetClass:SGS|MAS Bills|Cash)-[:CONTRIBUTES_TO]->(Aggregate:liquid_assets)-[:SUPPORTED_BY]->(SourceChunk:liquidity); (Limit:liquidity_normal)-[:SUPPORTED_BY]->(SourceChunk:liquidity)",
+    "limit": "min 25%",
+    "metric": "Liquid assets ratio",
+    "section": "Liquidity",
+    "status": "OK",
+    "utilization": "188.0%",
+    "value": "47.0%"
+  },
+  {
+    "calculation": {
+      "denominator": 100000000.0,
+      "formula": "sum(market_value * modified_duration) / total_nav",
+      "numerator": 387900000.0,
+      "positions": [
+        {
+          "asset_class": "Cash & Cash Equivalents",
+          "credit_rating": "",
+          "instrument_id": "CASH-01",
+          "instrument_name": "SGD Cash",
+          "issuer_name": "House Cash",
+          "market_value_sgd": 4000000.0,
+          "modified_duration": 0.0
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "BBB+",
+          "instrument_id": "COR-01",
+          "instrument_name": "Changi Logistics 3.2% 2029",
+          "issuer_name": "Changi Logistics Pte Ltd",
+          "market_value_sgd": 8000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "A-",
+          "instrument_id": "COR-02",
+          "instrument_name": "Lion City Bank 3.5% 2031",
+          "issuer_name": "Lion City Bank",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "A",
+          "instrument_id": "COR-03",
+          "instrument_name": "Redhill Power 3.1% 2030",
+          "issuer_name": "Redhill Power Pte Ltd",
+          "market_value_sgd": 7000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "A",
+          "instrument_id": "COR-04",
+          "instrument_name": "Redhill Transport 3.0% 2032",
+          "issuer_name": "Redhill Transport Pte Ltd",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "BB",
+          "instrument_id": "COR-05",
+          "instrument_name": "Marina Bay Resorts 4.0% 2028",
+          "issuer_name": "Marina Bay Resorts Ltd",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Foreign Currency Bonds",
+          "credit_rating": "BBB",
+          "instrument_id": "FX-01",
+          "instrument_name": "USD IG Bond (hedged) 3.8% 2030",
+          "issuer_name": "Pacific Telecom Corp",
+          "market_value_sgd": 5000000.0,
+          "modified_duration": 4.0
+        },
+        {
+          "asset_class": "High Yield Bonds",
+          "credit_rating": "BB",
+          "instrument_id": "HY-01",
+          "instrument_name": "APAC Yield 5.5% 2027",
+          "issuer_name": "Garuda Energy Tbk",
+          "market_value_sgd": 5000000.0,
+          "modified_duration": 3.0
+        },
+        {
+          "asset_class": "High Yield Bonds",
+          "credit_rating": "BB-",
+          "instrument_id": "HY-02",
+          "instrument_name": "APAC Yield 6.0% 2026",
+          "issuer_name": "Siam Petro PCL",
+          "market_value_sgd": 4000000.0,
+          "modified_duration": 3.0
+        },
+        {
+          "asset_class": "MAS Bills",
+          "credit_rating": "AAA",
+          "instrument_id": "MAS-01",
+          "instrument_name": "MAS Bill 12W",
+          "issuer_name": "Monetary Authority of Singapore",
+          "market_value_sgd": 8000000.0,
+          "modified_duration": 0.3
+        },
+        {
+          "asset_class": "Structured Credit",
+          "credit_rating": "AAA",
+          "instrument_id": "SC-01",
+          "instrument_name": "AAA ABS Series 2024-1",
+          "issuer_name": "Harbour ABS Trust",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 2.5
+        },
+        {
+          "asset_class": "Singapore Government Securities",
+          "credit_rating": "AAA",
+          "instrument_id": "SGS-01",
+          "instrument_name": "SGS 2.5% 2030",
+          "issuer_name": "Singapore Government",
+          "market_value_sgd": 20000000.0,
+          "modified_duration": 5.0
+        },
+        {
+          "asset_class": "Singapore Government Securities",
+          "credit_rating": "AAA",
+          "instrument_id": "SGS-02",
+          "instrument_name": "SGS 3.0% 2034",
+          "issuer_name": "Singapore Government",
+          "market_value_sgd": 15000000.0,
+          "modified_duration": 5.0
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_market_risk_p3",
+      "page": 3,
+      "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "CASH-01",
+      "COR-01",
+      "COR-02",
+      "COR-03",
+      "COR-04",
+      "COR-05",
+      "FX-01",
+      "HY-01",
+      "HY-02",
+      "MAS-01",
+      "SC-01",
+      "SGS-01",
+      "SGS-02"
+    ],
+    "config_rule": "market_risk.modified_duration_weighted_average",
+    "figure": "portfolio_modified_duration",
+    "graph_edges": [
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:CASH-01",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:COR-01",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:COR-02",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:COR-03",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:COR-04",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:COR-05",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:FX-01",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:HY-01",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:HY-02",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:MAS-01",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:SC-01",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:SGS-01",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:SGS-02",
+        "target": "Metric:weighted_duration"
+      },
+      {
+        "relation": "TESTED_AGAINST",
+        "source": "Metric:weighted_duration",
+        "target": "Limit:modified_duration"
+      }
+    ],
+    "graph_path": "(Position:*)-[:HAS_MARKET_VALUE_AND_DURATION]->(Metric:weighted_duration)-[:TESTED_AGAINST]->(Limit:modified_duration)",
+    "limit": "2.0\u20136.5 yrs",
+    "metric": "Portfolio modified duration",
+    "section": "Market risk",
+    "status": "OK",
+    "utilization": "n/a",
+    "value": "3.88 yrs"
+  },
+  {
+    "calculation": {
+      "denominator": null,
+      "formula": "sum(market_value * modified_duration * 0.0001)",
+      "numerator": 38790.0,
+      "positions": [
+        {
+          "asset_class": "Cash & Cash Equivalents",
+          "credit_rating": "",
+          "instrument_id": "CASH-01",
+          "instrument_name": "SGD Cash",
+          "issuer_name": "House Cash",
+          "market_value_sgd": 4000000.0,
+          "modified_duration": 0.0
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "BBB+",
+          "instrument_id": "COR-01",
+          "instrument_name": "Changi Logistics 3.2% 2029",
+          "issuer_name": "Changi Logistics Pte Ltd",
+          "market_value_sgd": 8000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "A-",
+          "instrument_id": "COR-02",
+          "instrument_name": "Lion City Bank 3.5% 2031",
+          "issuer_name": "Lion City Bank",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "A",
+          "instrument_id": "COR-03",
+          "instrument_name": "Redhill Power 3.1% 2030",
+          "issuer_name": "Redhill Power Pte Ltd",
+          "market_value_sgd": 7000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "A",
+          "instrument_id": "COR-04",
+          "instrument_name": "Redhill Transport 3.0% 2032",
+          "issuer_name": "Redhill Transport Pte Ltd",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Investment Grade Corporate Bonds",
+          "credit_rating": "BB",
+          "instrument_id": "COR-05",
+          "instrument_name": "Marina Bay Resorts 4.0% 2028",
+          "issuer_name": "Marina Bay Resorts Ltd",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 4.5
+        },
+        {
+          "asset_class": "Foreign Currency Bonds",
+          "credit_rating": "BBB",
+          "instrument_id": "FX-01",
+          "instrument_name": "USD IG Bond (hedged) 3.8% 2030",
+          "issuer_name": "Pacific Telecom Corp",
+          "market_value_sgd": 5000000.0,
+          "modified_duration": 4.0
+        },
+        {
+          "asset_class": "High Yield Bonds",
+          "credit_rating": "BB",
+          "instrument_id": "HY-01",
+          "instrument_name": "APAC Yield 5.5% 2027",
+          "issuer_name": "Garuda Energy Tbk",
+          "market_value_sgd": 5000000.0,
+          "modified_duration": 3.0
+        },
+        {
+          "asset_class": "High Yield Bonds",
+          "credit_rating": "BB-",
+          "instrument_id": "HY-02",
+          "instrument_name": "APAC Yield 6.0% 2026",
+          "issuer_name": "Siam Petro PCL",
+          "market_value_sgd": 4000000.0,
+          "modified_duration": 3.0
+        },
+        {
+          "asset_class": "MAS Bills",
+          "credit_rating": "AAA",
+          "instrument_id": "MAS-01",
+          "instrument_name": "MAS Bill 12W",
+          "issuer_name": "Monetary Authority of Singapore",
+          "market_value_sgd": 8000000.0,
+          "modified_duration": 0.3
+        },
+        {
+          "asset_class": "Structured Credit",
+          "credit_rating": "AAA",
+          "instrument_id": "SC-01",
+          "instrument_name": "AAA ABS Series 2024-1",
+          "issuer_name": "Harbour ABS Trust",
+          "market_value_sgd": 6000000.0,
+          "modified_duration": 2.5
+        },
+        {
+          "asset_class": "Singapore Government Securities",
+          "credit_rating": "AAA",
+          "instrument_id": "SGS-01",
+          "instrument_name": "SGS 2.5% 2030",
+          "issuer_name": "Singapore Government",
+          "market_value_sgd": 20000000.0,
+          "modified_duration": 5.0
+        },
+        {
+          "asset_class": "Singapore Government Securities",
+          "credit_rating": "AAA",
+          "instrument_id": "SGS-02",
+          "instrument_name": "SGS 3.0% 2034",
+          "issuer_name": "Singapore Government",
+          "market_value_sgd": 15000000.0,
+          "modified_duration": 5.0
+        }
+      ]
+    },
+    "citation": {
+      "chunk_id": "chunk_market_risk_p3",
+      "page": 3,
+      "passage_summary": "Section 3.1 - modified duration must be 2.0 to 6.5 years and DV01 must be <= SGD 85,000 per bp.",
+      "source_doc": "sample_fund_guidelines.pdf"
+    },
+    "components": [
+      "CASH-01",
+      "COR-01",
+      "COR-02",
+      "COR-03",
+      "COR-04",
+      "COR-05",
+      "FX-01",
+      "HY-01",
+      "HY-02",
+      "MAS-01",
+      "SC-01",
+      "SGS-01",
+      "SGS-02"
+    ],
+    "config_rule": "market_risk.dv01=sum(market_value*duration*0.0001)",
+    "figure": "portfolio_dv01",
+    "graph_edges": [
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:CASH-01",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:COR-01",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:COR-02",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:COR-03",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:COR-04",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:COR-05",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:FX-01",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:HY-01",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:HY-02",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:MAS-01",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:SC-01",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:SGS-01",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "HAS_MARKET_VALUE_AND_DURATION",
+        "source": "Position:SGS-02",
+        "target": "Metric:dv01"
+      },
+      {
+        "relation": "TESTED_AGAINST",
+        "source": "Metric:dv01",
+        "target": "Limit:dv01"
+      }
+    ],
+    "graph_path": "(Position:*)-[:HAS_MARKET_VALUE_AND_DURATION]->(Metric:dv01)-[:TESTED_AGAINST]->(Limit:dv01)",
+    "limit": "max 85,000",
+    "metric": "Portfolio DV01",
+    "section": "Market risk",
+    "status": "OK",
+    "utilization": "45.6%",
+    "value": "SGD 38,790 / bp"
+  }
+]

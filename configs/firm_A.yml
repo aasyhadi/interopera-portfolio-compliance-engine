@@ -1,0 +1,19 @@
+firm_id: firm_A
+name: Firm A
+answer_key: sample_docs/firm_A_answer_key.xlsx
+output_report: outputs/firm_A_report.xlsx
+utilization_style: percent_1dp
+non_ig_method: asset_class_contributors
+non_ig_asset_classes:
+  - High Yield Bonds
+  - Structured Credit
+fallen_angel_include: false
+gre_concentration_method: issuer
+rounding:
+  percent_decimals: 1
+  duration_decimals: 2
+  dv01_decimals: 0
+tolerance:
+  percent_points: 0.05
+  duration_years: 0.005
+  currency: 1

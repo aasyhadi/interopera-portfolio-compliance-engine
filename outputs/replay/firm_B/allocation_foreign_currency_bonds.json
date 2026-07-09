@@ -1,0 +1,43 @@
+{
+  "citation": {
+    "chunk_id": "chunk_alloc_limits_p2",
+    "page": 2,
+    "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+    "source_doc": "sample_fund_guidelines.pdf"
+  },
+  "config_rule": "allocation_limits",
+  "denominator": 100000000.0,
+  "figure": "allocation_foreign_currency_bonds",
+  "firm": "firm_B",
+  "formula": "sum(asset_class_market_value) / total_nav * 100",
+  "graph_edges": [
+    {
+      "relation": "APPLIES_TO",
+      "source": "Limit:allocation:Foreign Currency Bonds",
+      "target": "AssetClass:Foreign Currency Bonds"
+    },
+    {
+      "relation": "BELONGS_TO",
+      "source": "Position:FX-01",
+      "target": "AssetClass:Foreign Currency Bonds"
+    }
+  ],
+  "graph_path": "(Limit:allocation:Foreign Currency Bonds)-[:APPLIES_TO]->(AssetClass:Foreign Currency Bonds)<-[:BELONGS_TO]-(Position:FX-01)",
+  "limit": "0\u201320%",
+  "metric": "Foreign Currency Bonds (hedged)",
+  "numerator": 5000000.0,
+  "replay_statement": "Foreign Currency Bonds (hedged) = 5000000.0 / 100000000.0 using formula: sum(asset_class_market_value) / total_nav * 100; display value 5.0%.",
+  "source_positions": [
+    {
+      "asset_class": "Foreign Currency Bonds",
+      "credit_rating": "BBB",
+      "instrument_id": "FX-01",
+      "instrument_name": "USD IG Bond (hedged) 3.8% 2030",
+      "issuer_name": "Pacific Telecom Corp",
+      "market_value_sgd": 5000000.0,
+      "modified_duration": 4.0
+    }
+  ],
+  "status": "OK",
+  "value": "5.0%"
+}

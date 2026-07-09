@@ -1,0 +1,57 @@
+{
+  "citation": {
+    "chunk_id": "chunk_alloc_limits_p2",
+    "page": 2,
+    "passage_summary": "Section 2 - permitted investments and allocation limits expressed as NAV percentages.",
+    "source_doc": "sample_fund_guidelines.pdf"
+  },
+  "config_rule": "allocation_limits",
+  "denominator": 100000000.0,
+  "figure": "allocation_singapore_government_securities",
+  "firm": "firm_B",
+  "formula": "sum(asset_class_market_value) / total_nav * 100",
+  "graph_edges": [
+    {
+      "relation": "APPLIES_TO",
+      "source": "Limit:allocation:Singapore Government Securities",
+      "target": "AssetClass:Singapore Government Securities"
+    },
+    {
+      "relation": "BELONGS_TO",
+      "source": "Position:SGS-01",
+      "target": "AssetClass:Singapore Government Securities"
+    },
+    {
+      "relation": "BELONGS_TO",
+      "source": "Position:SGS-02",
+      "target": "AssetClass:Singapore Government Securities"
+    }
+  ],
+  "graph_path": "(Limit:allocation:Singapore Government Securities)-[:APPLIES_TO]->(AssetClass:Singapore Government Securities)<-[:BELONGS_TO]-(Position:SGS-01,SGS-02)",
+  "limit": "20\u201360%",
+  "metric": "Singapore Government Securities",
+  "numerator": 35000000.0,
+  "replay_statement": "Singapore Government Securities = 35000000.0 / 100000000.0 using formula: sum(asset_class_market_value) / total_nav * 100; display value 35.0%.",
+  "source_positions": [
+    {
+      "asset_class": "Singapore Government Securities",
+      "credit_rating": "AAA",
+      "instrument_id": "SGS-01",
+      "instrument_name": "SGS 2.5% 2030",
+      "issuer_name": "Singapore Government",
+      "market_value_sgd": 20000000.0,
+      "modified_duration": 5.0
+    },
+    {
+      "asset_class": "Singapore Government Securities",
+      "credit_rating": "AAA",
+      "instrument_id": "SGS-02",
+      "instrument_name": "SGS 3.0% 2034",
+      "issuer_name": "Singapore Government",
+      "market_value_sgd": 15000000.0,
+      "modified_duration": 5.0
+    }
+  ],
+  "status": "OK",
+  "value": "35.0%"
+}
